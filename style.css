@@ -1,0 +1,28 @@
+#box{
+    height: 200px;
+    width:200px;
+    position: relative;
+    top:10px;
+    left:10px;
+    background-color: #e1b9c0;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20%;
+    box-shadow: 5px 5px black;
+ }
+#box span{
+    margin:auto;
+    float: center;
+    position: absolute;
+    top:35%;
+    left:20%;
+}
+
+ body{
+    cursor:grab;
+background-image: linear-gradient(to right, #BA5370, #F4E2D8);
+font-size: 2rem;
+font-weight: 700;
+font-family: 'Dancing Script', cursive;
+color: white;
+ }
